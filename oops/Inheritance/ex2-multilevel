@@ -1,0 +1,21 @@
+class Animal {
+void eat(){sos("eating");}
+}
+
+
+class Dog extends Animal {
+void drink (sos('drink'));
+}
+
+class Baby_dog extends Dog{
+void weep (sos("weep"));
+}
+
+class Main{
+Public static void main(String[] args)
+{
+Baby_dog b = new Baby_dog();
+b.weep();
+b.drink();
+b.eat();
+}
