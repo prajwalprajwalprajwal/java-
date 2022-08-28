@@ -1,0 +1,15 @@
+class Employee{
+float salary =4k;
+}
+
+//Programmer function inherits the Employee class
+class Programmer extends Employee{
+int bonus=1000;
+
+public static void main (String[] agrs)
+{
+Programmer p = new Programmer();
+System.out.println(p.salary);
+
+}
+}
